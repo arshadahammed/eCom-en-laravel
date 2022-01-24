@@ -1,18 +1,7 @@
-<div class="container">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="col-md-4 d-flex align-items-center">
-      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
-      </a>
-      <span class="text-muted">&copy; 2021 Company, Inc</span>
+<div style="clear:both" class="panel panel-default">
+    <div class="panel-body">
+      Panel content
+      
     </div>
-
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-     <i class="bi bi-facebook"><svg class="bi" width="24" height="24"></i>
-     <i class="bi bi-instagram"><svg class="bi" width="24" height="24"></i>
-     <i class="bi bi-twitter"><svg class="bi" width="24" height="24"></i>
-     <i class="bi bi-whatsapp"><svg class="bi" width="24" height="24"></i>
-     
-    </ul>
-  </footer>
-</div>
+    <div class="panel-footer">Panel footer</div>
+  </div>
