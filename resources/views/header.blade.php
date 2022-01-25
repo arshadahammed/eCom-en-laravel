@@ -18,7 +18,7 @@ $total = ProductController::CartItem();
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Orders</a>
+          <a class="nav-link" href="myorders">Orders</a>
         </li>
               
       </ul>
@@ -33,7 +33,7 @@ $total = ProductController::CartItem();
         <div class="collapse navbar-collapse" id="navbarScroll">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
          <li class="nav-item">
-          <a class="nav-link" href="#">cart({{ $total }})</a>
+          <a class="nav-link" href="/cartlist">cart({{ $total }})</a>
            </li>
            @if (Session::has('user'))
              
@@ -48,6 +48,9 @@ $total = ProductController::CartItem();
       @else
        <li>
           <a class="nav-link" href="/login">Login</a>
+           </li>
+             <li>
+          <a class="nav-link" href="/register">Register</a>
            </li>
       @endif
              </ul>

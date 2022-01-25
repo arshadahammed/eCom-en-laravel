@@ -19,36 +19,41 @@
 </body>
 <style>
     .custom-login{
-        height:500px;
+        height: 500px;
         padding-top: 100px;
     }
     img.slider-img{
-        height: 400px !important;
-
+        height: 400px !important
     }
     .custom-product{
-        height:500px;
+        height: 600px
     }
     .slider-text{
         background-color: #35443585 !important;
-    
     }
     .trending-image{
-         height: 100px;
+        height: 100px;
     }
     .trending-item{
-        text-align: center;
         float: left;
-        width: 20%;
+         width: 20%;
+        
     }
     .trending-wrapper{
         margin: 30px;
     }
     .detail-img{
-        height:200px;
+        height: 200px;
     }
     .search-box{
-        width: 500px !important;
+        width: 500px !important
     }
+    .cart-list-devider{
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 20px;
+        padding-bottom: 20px
+    }
+    
+
 </style>
 </html>
